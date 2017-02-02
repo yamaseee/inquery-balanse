@@ -30,11 +30,8 @@ module.exports = {
     require('autoprefixer')
   ],
 
-  // plugins: [
-  //   new webpack.BannerPlugin("Copyright Flying Unicorns inc.")
-  // ],
   plugins: [
-      new webpack.BannerPlugin("Copyright Flying Unicorns inc."),
+      new webpack.BannerPlugin("Copyright inquery-balanse"),
       new HtmlWebpackPlugin({
         template: __dirname + "/app/index.tmpl.html" }),
       new webpack.HotModuleReplacementPlugin()
